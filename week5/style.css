@@ -33,6 +33,7 @@ li a:hover {
 
 h2 {
     font-size: 1.5vw;
+    font-family: 'Aguafina Script';
 }
 
 body{
@@ -58,17 +59,20 @@ h3{
     position: relative;
     transform: translateY(2vh);
     font-size: 1vw;
+    font-family: 'Aguafina Script';
 }
 
 h4{
 
-    font-size: 2vw;
+    font-size: 1.6vw;
+    font-family: 'Aguafina Script';
 }
 
 p{
-    font-size: 1.2vw;
+    font-size: 1vw;
     color: dimgray;
-    transform: translateY(-1vh) translateX(62vw);
+    transform: translateY(0vh) translateX(62vw);
+    font-family: 'Aguafina Script';
 }
 
 
@@ -85,6 +89,7 @@ p{
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+    font-family:'Roboto';
 }
 
 .homebutton:hover {
@@ -141,7 +146,7 @@ p{
     font-size: 1.3vw;
     position: relative;
     left: 62vw;
-    transform: translateY(36vh);
+    transform: translateY(35vh);
 }
 
 .addbutton:hover {
@@ -277,6 +282,8 @@ p{
     text-align: center;
     min-width: 16.66vw;
     padding: 1vw 0px 1vw 0px;
+    font-family: 'Aguafina Script';
+    font-size: 1vw;
 }
 
 .previewimg {
@@ -304,15 +311,15 @@ p{
 }
 
 .productTitle{
-    transform: translateY(-1vh) translateX(62vw);
+    transform: translateY(0vh) translateX(62vw);
 }
 
 .glazingTitle{
-    transform: translateY(5vh) translateX(62vw);
+    transform: translateY(3vh) translateX(62vw);
 }
 
 .quantTitle{
-    transform: translateY(24vh) translateX(62vw);
+    transform: translateY(23vh) translateX(62vw);
 }
 
 .icon{
@@ -321,10 +328,16 @@ p{
     transform: translateY(25%) translateX(-25%);
 }
 
+.suggestText{
+
+    text-align: center;
+}
+
 /* IDs */
 #title{
+    font-family: 'Aguafina Script';
     display: block;
-    font-size: 8vh;
+    font-size: 6vh;
     color: white;
     padding: 7.5vh 0px 0vh 2vw;
 }
