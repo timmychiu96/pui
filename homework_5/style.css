@@ -18,6 +18,10 @@ a:visited{
     color: black;
 }
 
+a:link{
+    color: black;
+}
+
 li {
     float: left;
     border-right: 20px;
